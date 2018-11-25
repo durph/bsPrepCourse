@@ -1,0 +1,75 @@
+body {
+	margin: 0 30%;
+	font-family: sans-serif;
+	text-align: center;
+}
+/*
+h1, h2, h3 {
+	text-align: center;
+}
+*/
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.firstWords {
+	font-weight: bold;
+}
+
+.myInfo {
+	height: 5rem;
+	border-bottom: 1px solid black;
+	padding-bottom: 1rem;
+}
+
+.myInfo>div {
+	display: inline-block;
+}
+
+.myInfo>div:nth-child(2) {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.profile>p {
+	text-align: left;
+}
+
+.areasOfCont>div>ul {
+	display: inline-block;
+	text-align: left;
+}
+
+.areasOfCont>div>ul:first-child {
+	margin-right: 1rem;
+}
+
+.xpTitle, .xpYears {
+	display: inline-block;
+}
+
+.xpTitle {
+	float: left;
+}
+
+.xpYears {
+	float: right;
+}
+
+.workEXP>div {
+	overflow: auto;
+}
+
+.workEXP>div>p {
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 2rem;
+	text-indent: 1rem;
+	text-align: left;
+}
+
+footer {
+	margin-top: 3rem;
+}
